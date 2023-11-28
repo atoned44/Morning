@@ -20,12 +20,12 @@ def send_notification():
     hour = now.hour
 
     # Set the URL of your static webpage with the message
-    message_url = "https://atoned44.github.io/protection/"
+    message_url = "https://atoned44.github.io/earlyriser/"
     
     # Set the notification payload with the link to the message and other parameters
     payload = {
         "k": pushsafer_access_key,
-        "m": f"Recite your incantations, spells & mantras @ {message_url}",
+        "m": f"MORNING! Recite early morning prayers here... @ {message_url}",
         "u": message_url,
         "s": "1",
     }
