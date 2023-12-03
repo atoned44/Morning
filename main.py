@@ -25,7 +25,7 @@ def send_notification():
     # Set the notification payload with the link to the message and other parameters
     payload = {
         "k": pushsafer_access_key,
-        "m": f"MORNING! Open early morning prayers...",
+        "m": f"MORNING EARLY RISER!",
         "u": message_url,
         "s": "1",
     }
